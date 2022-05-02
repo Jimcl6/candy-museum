@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f5d9df;
+    font-family: 'Nunito', sans-serif;
+    overflow-x: hidden;
+}
+
+.blurb h2 {
+    color: #ea1c2c;
+    font-weight: 100;
+    font-size: 2.5rem;
+}
+
+.blurb p.lead {
+    color: #f498b8;
+    font-weight: 100;
+    font-size: 1.125rem;
+    line-height: 2;
+}
+
+.content {
+    margin-top: 100px;
+}
+
+#main-navbar .navbar-brand {
+    color: #ea1c2c;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+#main-navbar .nav-link {
+    color: #fff;
+}
+
+#main-navbar .nav-link:hover,
+#main-navbar .nav-link:focus {
+    color: #ea1c2c;
+}
+
+#main-navbar {
+    color: #ea1c2c;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+#heading-group span {
+    color: #ea1c2c;
+}
+
+#heading-group h1 {
+    font-weight: 100;
+    font-size: 4rem;
+}
+
+@media (max-width:1200px) {
+    #heading-group h1 {
+        font-weight: 100;
+        font-size: 3rem;
+    }
+}
