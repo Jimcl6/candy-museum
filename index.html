@@ -22,7 +22,7 @@
 
     <!-- nav section -->
     <section id="navigation-bar">
-        <nav id="main-navbar" class="navbar navbar-dark py-0 navbar-expand-md fixed-top scrolled">
+        <nav id="main-navbar" class="navbar navbar-dark py-0 navbar-expand-md fixed-top">
             <a href="#" class="navbar-brand">CANDY</a>
             <button class="navbar-toggler" data-toggle="collapse" data-target="#" aria-label="Toggle Navigation">
         <span class="navbar-toggler-icon"></span>
@@ -138,7 +138,7 @@
         $(function() {
             $(document).scroll(function() {
                 var $nav = $("#main-navbar");
-                $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height);
+                $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
             });
         });
     </script>
